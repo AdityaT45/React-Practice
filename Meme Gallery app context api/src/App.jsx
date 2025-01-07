@@ -17,7 +17,7 @@ function App() {
     .then((response)=>{
       setData(response.data.memes),
       setTimeout(() => {
-        setIsLoading(false); // Set isLoading to false after a slight delay
+        setIsLoading(false);
       }, 1000); 
             
     })

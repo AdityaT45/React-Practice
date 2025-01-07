@@ -11,7 +11,7 @@ const Meme = () => {
             {data.map((meme) => (
               <div key={meme.id} className="col-md-4 mb-4">
                 <div className="card h-100">
-                  {/* Image with dynamic styles for width and height */}
+                  
                   <img
                     src={meme.url}
                     className="card-img-top meme-image"
